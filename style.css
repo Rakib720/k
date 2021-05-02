@@ -1,0 +1,168 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.kebord ul{
+    list-style: none;
+    display: flex;
+    background: rgb(255, 0, 0);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.kebord li{
+    color: #fff;
+    flex-grow: 1;
+    background: rgb(27, 26, 26);
+    margin-left: 7px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 15px 0px;
+    border-radius: 5px;
+    box-shadow: -2px 2px 4px rgb(0, 0, 0);
+    transition: .1s ease-in-out;
+    font-size: 22px;
+    text-shadow: 2px 2px 2px rgb(17, 2, 2);
+}
+.kebord li:first-child{
+    margin-left: 0%;
+}
+.kebord li:hover{
+    background-color: rgb(134, 126, 126);
+    color: black;
+}
+
+.kebord li ul{
+    background: transparent !important;
+    margin-bottom: 0px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.kebord li ul li{
+    width: 100%;
+    padding:8px 0px;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+ 
+.kebord li ul li:last-child{
+    margin-bottom: 0%;
+    margin-left: 0%;
+}
+
+.kebord{
+    padding: 40px 30px;
+    background: rgb(51, 48, 48);
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px  black;
+}
+.kebord-btn-top ul li{
+    height: 10px;
+    padding: 0%;
+}
+.kebord-btn-top ul{
+    margin-bottom: 30px;
+}
+.kebord-btn-f ul li:nth-child(5){
+    flex-grow: 12;
+}
+.kebord-btn-f ul li:nth-child(9){
+    background: transparent;
+    padding: 0% !important;
+}
+.bottom-lline{
+    margin-top: 30px;
+}
+
+@media (max-width:1174px) {
+    .kebord li{
+        background: rgb(253, 8, 8);
+        padding: 10px 0px;
+        font-size: 17px;
+    }
+    .kebord ul{
+        background: rgb(68, 14, 194);
+    }
+    .kebord{
+        padding: 30px 20px;
+ 
+    }
+    .kebord-btn-top ul{
+        margin-bottom: 20px;
+    }
+    .bottom-lline{
+        margin-top: 20px;
+    }
+    .kebord li ul li{
+        padding: 4px 2px;
+        font-size: 10px;
+    }
+}
+@media (max-width:842px){
+    .kebord li{
+        background: rgb(71, 62, 197);
+        padding: 5px 0px;
+        font-size: 15px;
+    }
+    .kebord{
+        padding: 20px 10px;
+ 
+    }
+    .bottom-lline{
+        margin-top: 20px;
+    }
+    .kebord-btn-top ul{
+        margin-bottom: 10px;
+    }
+    .kebord li ul li{
+        padding: 0px;
+        font-size: 10px;
+    }
+}
+@media  (max-width:610px) {
+    .kebord li{
+        background: rgb(15, 82, 59);
+        padding: 0px 0px;
+        font-size: 10px;
+    }
+    .kebord{
+        padding: 10px 5px;
+ 
+    }
+    .bottom-lline{
+        margin-top: 10px;
+    }
+    .kebord-btn-top ul{
+        margin-bottom: 10px;
+    }
+    .kebord li ul li{
+        padding:0px;
+        font-size: 5px;
+    }
+}
+@media (max-width:410px) {
+    .kebord li{
+        background: rgb(90, 45, 128);
+        padding: 0px 0px;
+        font-size: 5px;
+    }
+    .kebord{
+        padding: 5px;
+ 
+    }
+    .bottom-lline{
+        margin-top: 5px;
+    }
+    .kebord ul{
+        background: rgb(90, 100, 52);
+    }
+    .kebord li ul li{
+        font-size: 3px;
+    }
+}
